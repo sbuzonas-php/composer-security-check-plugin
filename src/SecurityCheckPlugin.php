@@ -25,7 +25,7 @@ use FancyGuy\Composer\SecurityCheck\Util\DiagnosticsUtility;
 class SecurityCheckPlugin implements PluginInterface, Capable, EventSubscriberInterface
 {
 
-    const VERSION = '1.0';
+    const VERSION = '1.2';
 
     public static function getSubscribedEvents()
     {
